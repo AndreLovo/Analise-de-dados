@@ -1,0 +1,30 @@
+#Mostrando os dados em um gráfico
+# Precisamos informar que queremos visualizar o gráfico dentro do próprio notebook
+%matplotlib inline
+
+#Plotar o gráfico para os ítens da coluna y em um gráfico de barra
+df['y'].value_counts().plot.bar()
+
+
+---------------------------------------------------------------------------------------
+
+ImportError: cannot import name '_path'
+
+---------------------------------------------------------------------------------------
+
+como fazer o matplot encontrar o path jupyter notebook
+
+---------------------------------------------------------------------------------------
+
+http://localhost:8888/?token=e615fdff5053ab78463159ec972b923e83a7468adb138b91
+
+http://localhost:8888/login?next=%2Ftree%3Ftoken%3D70868fc959f007376901c22681ac7f156431ed501dd983d
+---------------------------------------------------------------------------------------
+
+# Mostrando os dados em um gráfico
+# Precisamos informar que queremos visualizar o gráfico dentro 
+# do próprio notebook 
+%matplotlib inline
+
+#Agora vamos pegar os setores e mostrar em um gráfico de barras
+df['setor'].value_counts().plot.()
